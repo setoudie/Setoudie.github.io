@@ -65,7 +65,7 @@
 
 /* Debut du code de la section 1 */
         section.section1 {
-            background-image: url(/Organick/images/group18.png);
+            background-image: url(group18.png);
             /* background-size: cover; */
             background-position: center;
             background-repeat: no-repeat;
@@ -147,7 +147,7 @@
         }
 
         div.section2_left_img{
-            background-image: url(/Organick/images/left_img.png);
+            background-image: url(left_img.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -158,7 +158,7 @@
         }
 
         div.section2_right_img{
-            background-image: url(/Organick/images/right_img.png);
+            background-image: url(right_img.png);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -330,8 +330,8 @@
             background-color: rgb(8, 117, 19);
             /* background-image: url(/Organick/images/sect4_left_img.png); */
         }
-        div.section4_left_div{background-image: url(/Organick/images/sect4_top_img.png);}
-        div.section4_right_div{background-image: url(/Organick/images/sect4_bottom_img.png);}
+        div.section4_left_div{background-image: url(sect4_top_img.png);}
+        div.section4_right_div{background-image: url(sect4_bottom_img.png);}
 
         div.section4_middle_div{
             width: 100%;
@@ -523,7 +523,7 @@ section.section7{
 }
 
 div.div3_section7{
-    background-image: url(/Organick/images/foot_img.png);
+    background-image: url(foot_img.png);
     /* display: flex;
     flex-wrap: wrap; */
     align-items: center;

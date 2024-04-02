@@ -1,0 +1,682 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        /* background-color: rgb(10, 13, 178); */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    section.menu{
+        padding: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aliceblue;
+    }
+
+    div.logo{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* background-color: aquamarine; */
+        width: 30%;
+        gap: 3%
+    }
+
+    img.logo_img{
+        width: 12%;
+        height: auto;
+        gap: 0px;
+        opacity: 0px;
+    }
+
+    p.logo_text{
+        position: relative;
+        top: 10%;
+        font-family: Roboto;
+        font-size: 150%;
+        font-weight: 700;
+        line-height: 5%;
+        text-align: left;
+    }
+
+    img.menu_burger{
+        display: none;
+    }
+
+    ul.menu_items{
+        display: flex;
+        position: relative;
+        left: 6%;
+        gap: 15%;
+        /* text-decoration: none; */
+        /* justify-content: flex-start; */
+    } 
+    li{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23.44px;
+        text-align: left;
+        list-style: none;
+    }
+
+    div.menu_box{
+        display: flex;
+        justify-content: flex-start;
+        /* background-color: red; */
+        width: 70%;
+    }
+
+    a{text-decoration: none;}
+
+/* Debut du code de la section 1 */
+        section.section1 {
+            background-image: url(/Organick/images/group18.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            width: 100%;
+        }
+    
+        div.section1_div1{
+            position: relative;
+            top: 6vh;
+            left: 15%;
+            width: 50%;
+            height: 50vh;
+            /* background-color: rgb(150, 20, 20); */
+        }
+
+        button.section1_div1_bouton_decouvrir{
+            /* position: relative; */
+            /* left: 70%; */
+            /* width: 100px; */
+            display: flex;
+            /* flex-direction: row; */
+            background-color: #EFD372;
+            border: none;
+            border-radius: 16px;
+            padding: 28px, 39px, 28px, 39px;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+
+        p.section1_div1_text_bouton{
+            font-family: "Roboto";
+            font-size: x-large;
+            font-weight: 700;
+            line-height: 23px;
+            color: #274C5B;
+        }
+
+
+        p.section1_div1_text_vert{
+            position: relative;
+            top: 12%;
+            font-family: "Yellowtail", cursive;
+            font-style: italic;
+            font-size: 300%;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 90%;
+            text-align: left;
+            color: #68A47F;
+            /* border: 1px solid; */
+            margin-bottom: 2px;
+        }
+        
+        p.section1_div1_large_text{
+            font-family: "Roboto";
+            font-size: 360%;
+            line-height: 82px;
+            /* border: 1px solid; */
+            font-weight: 700;
+            color: #274C5B;
+            margin-bottom: 2%;
+        }
+
+/*Debut du code de la section 2 : celle des deux images*/
+    section.section2{
+        /* background-color: #274C5B; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        width: 100%;
+        gap: 0px;
+        /* height: 100vh; */
+    }
+
+    div.section2_left_img{
+        background-image: url(/Organick/images/left_img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 59vh;
+        width: 100%;
+        margin: 2.5% 0% 2.5% 2.5%;
+        border-radius: 16px;
+    }
+
+    div.section2_right_img{
+        background-image: url(/Organick/images/right_img.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 59vh;
+        width: 100%;
+        margin: 2.5% 4% 2.5% 2.5%;
+        border-radius: 16px;
+    }
+
+    p.section2_left_img_text{
+        position: relative;
+        top: 1vh;
+        left: 5%;
+        width: 75%;
+        height: 35vh;
+        /* background-color: rebeccapurple; */
+
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 46.88px;
+        text-align: left;
+        color: white;
+    }
+
+    p.section2_right_img_text{
+        position: relative;
+        top: 1vh;
+        left: 5%;
+        width: 75%;
+        height: 35vh;
+        /* background-color: rebeccapurple; */
+
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 46.88px;
+        text-align: left;
+    }
+
+    span{
+        font-family: Yellowtail;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 49.06px;
+        text-align: left;
+
+    }
+
+    /* Debut du code css de la section3 : la section des agrumes */
+    section.section3{
+        position: relative;
+        /* left: 20%; */
+        background-color: #F9F8F8;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    div.section3_bloc{
+        position: absolute;
+        top: 5%;
+        left: 25%;
+        /* border: none; */
+        /* background-color: rgb(131, 30, 30); */
+        width: 60%;
+        /* background-color: #F9F8F8; */
+        background-color: rgba(249, 248, 248, 0.8);
+        border-radius: 16px;
+        /* left: 50%; */
+        /* bottom: 60%; */
+    }
+
+    div.section3_bloc_top{
+        /* border: 5px solid; */
+        border: none;
+        padding-left: 2%;
+    }
+
+    div.section3_bloc_bottom{
+        /* border: 5px solid; */
+        border: none;
+        padding-left: 2%;
+    }
+
+    button.section3_bloc_bouton{
+        /* position: relative; */
+        /* left: 70%; */
+        width: 40%;
+        display: flex;
+        /* flex-direction: row; */
+        background-color: #274C5B;
+        border: none;
+        border-radius: 16px;
+        /* padding: 28px, 10px, 2px, 10px; */
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    p.section3_text_bouton{
+        font-family: "Roboto";
+        font-size: large;
+        font-weight: 700;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    div.section3_bloc_bottom1, .section3_bloc_bottom2{
+        display: flex;
+        margin-bottom: 3%;
+        width: 90%;
+        /* border: 2px solid; */
+        /* margin-right: 2vh; */
+    }
+
+    p.section3_bloc_top_text{
+        font-family: Roboto;
+        font-size: 6vh;
+        font-weight: 800;
+        line-height:6vh;
+        text-align: left;
+        color: #274C5B;
+
+    }
+
+    em.mini_txt{
+        font-family: Open Sans;
+        font-size: 3.7vh;
+        font-weight: 400;
+        /* line-height: 0.7vh; */
+        text-align: left;
+        color: #525C60;
+    }
+
+    p.text_bottom1{
+        font-family: Open Sans;
+        font-size: 3vh;
+        font-weight: 400;
+        line-height: 3vh;
+        text-align: left;
+        color: #525C60;
+    }
+
+    em.small_text_bottom{
+        font-family: Roboto;
+        font-size: 3vh;
+        font-weight: 800;
+        /* line-height: 4vh; */
+        text-align: left;
+        
+    }
+    div.corr_div{background-color: #F9F8F8; width: 100%; height: 45vh;}
+
+    /* Debut du code CSS de la section 4 : la section des cercles */
+    section.section4{
+        /* display: inline-flex; */
+        width: 100%;
+        height: 150vh;
+        background-color: #FFFFFF;
+    }
+
+    div.section4_left_div, div.section4_right_div{
+        width: 100%;
+        height: 25vh;
+        background-color: rgb(8, 117, 19);
+        /* background-image: url(/Organick/images/sect4_left_img.png); */
+    }
+    div.section4_left_div{background-image: url(/Organick/images/sect4_top_img.png);}
+    div.section4_right_div{background-image: url(/Organick/images/sect4_bottom_img.png);}
+
+    div.section4_middle_div{
+        width: 100%;
+        height: 109vh;
+        background-color: #FFFFFF;
+    }
+
+    p.sect4_temoignages{
+        /* justify-content: center;
+        align-items: center; */
+        font-family: Yellowtail;
+        font-size: 6vh;
+        font-weight: 400;
+        line-height: 6vh;
+        text-align: left;
+        color: #7EB693;
+        text-align: center;
+    }
+    p.sect4_question{
+        font-family: Roboto;
+        font-size: 8vh;
+        font-weight: 800;
+        line-height: 7vh;
+        text-align: center;
+    }
+
+    div.profile_info{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* border: 2px solid; */
+        width: 23%;
+        left: 44%;
+    }
+    p.text_profile_info{
+        font-family: Open Sans;
+        font-size: 2.4vh;
+        font-weight: 400;
+        line-height:4vh;
+        text-align: center;
+        color: #525C60;
+    }
+    div.name_div {
+        justify-content: center;
+        align-items: center;
+    }
+    p.sect4_name{
+        font-family: Roboto;
+        font-size: 2.6vh;
+        font-weight: 600;
+        line-height: 3vh;
+        color: #274C5B;
+        text-align: center;
+    }
+    em.sect4_job{
+        font-family: Open Sans;
+        font-size: 2.4vh;
+        font-weight: 400;
+        color: #525C60;
+    }
+
+    img.photopp{
+        /* border: 4px solid; */
+        /* justify-content: center; */
+        border-radius: 50%;
+    }
+
+    div.circles_div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3%;
+    }
+
+    div.cercles{
+        padding: 2%;
+        border: 3px solid #7EB693;
+        border-radius: 50%;
+        background-color: #F1F1F1;
+        width: 18vh;
+        height: 18vh;
+    }
+    p.circle_text{
+        font-family: Roboto;
+        font-size: 5vh;
+        font-weight: 800;
+        line-height: 3vh;
+        text-align: center;
+        color: #274C5B;
+    }
+    em.circle_other_text{
+        font-family: Open Sans;
+        font-size: 3vh;
+        /* font-style: italic; */
+        font-weight: 600;
+        /* line-height: 29.77px; */
+        /* text-align: center; */
+        color: #274C5B;
+    }
+
+    /*  Debut du Css de la section5 : celle qui contient l'image du champ*/
+    section.section5{
+        position: relative;
+        margin-top: 22%;
+    }
+    div.sect5_img{
+        position: relative;
+    }
+
+    .sect5_bloc_text {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+        background-color: rgba(255, 255, 255, 1);
+        padding:0% 3% 3% 3%;
+        text-align: left;
+        border-radius: 5%;
+        /* height: 10vh; */
+    }
+    p.sect5_div1_text{
+        font-family: Roboto;
+        font-size: 6vh;
+        font-weight: 800;
+        line-height: 6vh;
+        text-align: left;
+        color: #274C5B;
+    }
+    p.sect5_div2_text{
+        font-family: Roboto;
+        font-size: 2.5vh;
+        font-weight: 500;
+        /* line-height: 2vh; */
+        text-align: left;
+        color: #274C5B;
+    }
+    em.sect5_div2_text_small{
+        font-family: Open Sans;
+        font-size: 2vh;
+        font-weight: 400;
+        line-height: 3vh;
+        text-align: left;
+        font-style: normal;
+        color: #525C60;
+    }
+
+    /* Debut du code css de la section 6 */
+    section.section6{
+        /* position:relative; */
+        display: flex;
+        /* border: 1px solid; */
+        padding: 5%;
+        background-color: #F1F8F4;
+        gap: 3%;
+    }
+
+    div.div1_section6, div.div2_section6, div.div3_section6{
+        position: relative;
+        /* border: 3px solid ; */
+        width: 33%;
+    }
+    div.desc_div_section6{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: #F9F8F8;
+        width: 30%;
+        height: 6vh;
+        border-radius: 8px;
+        transform: translate(-50%, -50%);
+
+    }
+    img.img_div_sect6{
+        width: 100%;
+        height: 40vh;
+    }
+    p.text_desc_div_section6{
+        top: 45%;
+        font-family: Roboto;
+        font-size: 2vh;
+        font-weight: 500;
+        line-height: 2vh;
+        text-align: center;
+        color: #274C5B;
+        padding: 0%;
+    }
+
+    /* Debut de code Css de la section 7*/
+section.section7{
+    padding: 4% 12% 4% 12%;
+}
+
+div.div3_section7{
+    background-image: url(/Organick/images/foot_img.png);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    gap: 20%;
+    border-radius: 16px;
+    height: 35vh;
+}
+p.p1_div3_section7{
+    padding-left: 2%;
+    width: 35%;
+    font-family: Roboto;
+    font-size: 6vh;
+    font-weight: 800;
+    line-height: 6vh;
+    text-align: left;
+    color: white;
+
+}
+    
+    form{
+        display: flex;
+        gap: 3%;
+        /* width: 50%; */
+    }
+    .form-container {
+            /* background-color: #ffffff; */
+            padding: 30px;
+            border-radius: 5px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            /* height: 35vh; */
+        }
+
+    .form-group {
+            margin-bottom: 20px;
+        }
+
+    label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+    input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            height: 5vh;
+        }
+
+    button[type="submit"] {
+            background-color: #274C5B;
+            color: white;
+            /* padding: 5px 5px; */
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            /* width: 10%; */
+            height: 5vh;
+            box-sizing: border-box;
+        }
+
+    button[type="submit"]:hover {
+            background-color: #748891;
+        }
+
+    /*Debut fde code css de la section 8*/
+    section.section8{
+        display: flex;
+        gap: 5%;
+        width: 100%;
+    }
+    div.div1_section8{
+        width: 50%;
+        padding-right: 5%;
+        border-right: 2px solid #D4D4D4;
+    }
+    div.div2_section8{
+        padding-top: 4%;
+        width: 50%;
+    }
+    p.contact{
+        font-family: Roboto;
+        font-size: 6vh;
+        font-weight: 700;
+        line-height: 6vh;
+        text-align: right;
+        color: #274C5B;
+    }
+    p.info{
+        font-family: Open Sans;
+        font-size: 3vh;
+        font-weight: 400;
+        line-height: 4vh;
+        text-align: right;
+        color: #525C60;
+    }
+    span.info_title{
+        font-family: Open Sans;
+        font-size: 3.5vh;
+        font-weight: 700;
+        line-height: 5vh;
+        text-align: right;
+    }
+    div.div_hindo{
+        color: #525C60;
+        font-family: Open Sans;
+        font-size: 4vh;
+        font-weight: 400;
+        line-height: 3vh;
+        text-align: left;
+        padding-bottom: 5%;
+        padding-top: 3%;
+
+    }
+    div.div_rs{
+        display: flex;
+        /* border: 1px solid; */
+        padding-top: 3%;
+        width: 90%;
+        justify-content: left;
+        gap: 5%;
+        /* align-items: center; */
+        /* margin-left: 30.5%; */
+    }
+
+    section.copyright_section{
+        margin-top: 3% ;
+        border-top: 1px solid #D4D4D4;
+        padding-top: 2%;
+    }
+    p.copyright_text{
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 3vh;
+        font-weight: 400;
+        line-height: 2  vh;
+        /* text-align: center; */
+    }
+    em.bold_txt{
+        font-style: normal;
+        font-family: Open Sans;
+        font-size: 3vh;
+        font-weight: 700;
+        line-height: 3vh;
+        text-align: center;
+    }
+}

@@ -67,69 +67,24 @@
 
     /* Debut du code de la section 1 */
     section.section1 {
-        background-image: url(banierp2.png);
-        /* background-size: cover; */
-        /* background-position: center; */
+        background-image: url(Patternsstick_banierep2.png), url(banierp2.png);
+        background-size: cover;
+        background-position: center, center;
         background-repeat: no-repeat;
-        height: 100vh;
-    }
-
-    div.section1_div1{
-        position: relative;
-        top: 15%;
-        left: 15%;
-        width: 45%;
-        height: 50%;
-        /* background-color: rgb(8, 125, 39); */
-    }
-
-    button.section1_div1_bouton_decouvrir{
-        /* position: relative; */
-        /* left: 70%; */
-        /* width: 100px; */
+        height: 50vh;
         display: flex;
-        /* flex-direction: row; */
-        background-color: #EFD372;
-        border: none;
-        border-radius: 16px;
-        padding: 28px, 39px, 28px, 39px;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        text-align: center;
     }
-
-    p.section1_div1_text_bouton{
+    p.p2_text_section2{
         font-family: "Roboto";
-        font-size: x-large;
-        font-weight: 700;
-        line-height: 23px;
-        color: #274C5B;
-    }
-
-
-    p.section1_div1_text_vert{
-        position: relative;
-        top: 12%;
-        font-family: "Yellowtail", cursive;
-        font-style: italic;
-        font-size: 300%;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 90%;
-        text-align: left;
-        color: #68A47F;
-        /* border: 1px solid; */
-        margin-bottom: 2px;
-    }
-    
-    p.section1_div1_large_text{
-        font-family: "Roboto";
-        font-size: 450%;
-        line-height: 82px;
+        font-size: 8vh;
+        line-height: 8vh;
         /* border: 1px solid; */
         font-weight: 700;
         color: #274C5B;
-        margin-bottom: 2%;
+        /* margin-bottom: 2%; */
     }
 
 /*Debut du code de la section 2 : celle des deux images*/
@@ -140,195 +95,104 @@
         gap: 2%;
         margin-top: 7%;
         margin-bottom: 7%;
+        height: 90vh;
+        margin-bottom: 3%;
         /* margin-left: 2.5%; */
         /* margin-right: 2.5%; */
         /* height: 20vh; */
     }
+    div.div1_p2_section2{
+        width: 50%;
+        /* height: 90vh; */
 
-    /*Debut du code de la section 2 : celle des deux images*/
-    section.section2{
-        /* background-color: #274C5B; */
+    }
+    div.div2_p2_section2{
+        width: 50%;
+        background-color: #274C5B;
+        /* height: 90vh; */
+        padding-right: 3%;
+    }
+
+/* Debut du code css de la section3 : la section des agrumes */
+    section.section3{
+        /* position: relative; */
+        /* left: 20%; */
+        margin-top: 15vh;
+        /* display: flex; */
+        background-color: #414190;
+        width: 100%;
+        height: 150vh;
+        /* justify-content: center; */
+        /* align-items: center; */
+
+            
+    }
+    div.div1_p2_section3{
         display: flex;
-        /* flex-wrap: wrap; */
-        width: 100%;
-        gap: 0px;
-        /* height: 100vh; */
+        margin-left: 10%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        width: 80%;
+        height: 90vh;
+        border: 1px solid;
+        gap: 3%;
     }
-
-    div.section2_left_img{
-        background-image: url(left_img.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 50vh;
-        width: 100%;
-        margin: 2.5% 0% 2.5% 2.5%;
-        border-radius: 16px;
+    div.left_div1_p2_section3{
+        width: 50%;
+        height: 90vh;
+        background-color: #7EB693;
     }
-
-    div.section2_right_img{
-        background-image: url(right_img.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 50vh;
-        width: 100%;
-        margin: 2.5% 4% 2.5% 2.5%;
-        border-radius: 16px;
+    div.right_div1_p2_section3{
+        width: 50%;
+        height: 90vh;
+        background-color: #b6a27e;
     }
-
-    p.section2_left_img_text{
-        position: relative;
-        top: 8vh;
-        left: 5%;
-        width: 45%;
-        height: 35vh;
-        /* background-color: rebeccapurple; */
+    div.div2_p2_section3{
+        display: flex;
+        gap: 3%;
+        margin-top: 5vh;
+        width: 70%;
+        height: 50vh;
+        background-color: #748891;
+        margin-left: 15%;
     }
-
-    p.section2_right_img_text{
-        position: relative;
-        top: 8vh;
-        left: 5%;
-        width: 45%;
-        height: 35vh;
-        /* background-color: rebeccapurple; */
-    }
-
-        /* Debut du code css de la section3 : la section des agrumes */
-        section.section3{
-            /* position: relative; */
-            /* left: 20%; */
-            display: flex;
-            background-color: #F9F8F8;
-            width: 100%;
-            height: 150vh;
-            
-        }
-
-        img.image_sect3{
-            width: 100%;
-            /* height: 100vh; */
-        }
-    
-        div.section3_bloc{
-            /* position: absolute; */
-            /* top: 15%; */
-            /* left: 36%; */
-            /* border: none; */
-            /* background-color: rgb(131, 30, 30); */
-            width: 60%;
-            margin-left: 10%;
-            /* background-color: #F9F8F8; */
-            background-color: rgba(249, 248, 248, 1);
-            border-radius: 16px;
-            /* left: 50%; */
-            /* bottom: 60%; */
-        }
-    
-        div.section3_bloc_top{
-            /* border: 5px solid; */
-            border: none;
-
-        }
+    div.div1, div.div2, div.div3, div.div4{
+        width: 25%;
+        height: 45vh;
+        border-radius: 5%;
+        background-color: #F1F8F4;
+    } 
 
     
-        div.section3_bloc_bottom{
-            /* border: 5px solid; */
-            border: none;
-        }
-    
-        button.section3_bloc_bouton{
-            /* position: relative; */
-            /* left: 70%; */
-            width: 40%;
-            display: flex;
-            /* flex-direction: row; */
-            background-color: #274C5B;
-            border: none;
-            border-radius: 16px;
-            /* padding: 28px, 10px, 2px, 10px; */
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-        }
-    
-        p.section3_text_bouton{
-            font-family: "Roboto";
-            font-size: large;
-            font-weight: 700;
-            line-height: 23px;
-            color: #FFFFFF;
-        }
-    
-        div.section3_bloc_bottom1, .section3_bloc_bottom2{
-            display: flex;
-            margin-bottom: 3%;
-            width: 90%;
-            /* border: 2px solid; */
-            /* margin-right: 2vh; */
-        }
-    
-        p.section3_bloc_top_text{
-            font-family: Roboto;
-            font-size: 6vh;
-            font-weight: 800;
-            line-height:6vh;
-            text-align: left;
-            color: #274C5B;
-    
-        }
-    
-        em.mini_txt{
-            font-family: Open Sans;
-            font-size: 3.7vh;
-            font-weight: 400;
-            /* line-height: 0.7vh; */
-            text-align: left;
-            color: #525C60;
-        }
-    
-        p.text_bottom1{
-            font-family: Open Sans;
-            font-size: 3vh;
-            font-weight: 400;
-            line-height: 3vh;
-            text-align: left;
-            color: #525C60;
-        }
-    
-        em.small_text_bottom{
-            font-family: Roboto;
-            font-size: 3vh;
-            font-weight: 800;
-            /* line-height: 4vh; */
-            text-align: left;
-            
-        }
-        /* div.corr_div{background-color: #F9F8F8; width: 100%; height: 18vh;}     */
-
-     /* Debut du code CSS de la section 4 : la section des cercles */
+ /* Debut du code CSS de la section 4 : la section des cercles */
     section.section4{
-        display: inline-flex;
+        /* align-items: center; */
         width: 100%;
-        height: 125vh;
-        background-color: #c96767;
+        height: 150vh;
+        background-color: #238738;
     }
 
-    div.section4_left_div, div.section4_right_div{
-        width: 15%;
-        height: 125vh;
-        background-color: rgb(8, 117, 19);
+    div.div1_section4, div.section4_right_div{
+        margin-left: 25%;
+        width: 50%;
+        height: 25vh;
+        background-color: rgb(8, 73, 117);
         /* background-image: url(/Organick/images/sect4_left_img.png); */
     }
-    div.section4_left_div{background-image: url(sect4_left_img.png);}
-    div.section4_right_div{background-image: url(sect4_right_img.png);}
-
-    div.section4_middle_div{
-        width: 70%;
+    div.div2_section4{
+        display: flex;
+        gap: 4%;
+        width: 80%;
+        margin-left: 10%;
         height: 125vh;
         background-color: #FFFFFF;
     }
+    div.img1_div2_section4, div.img2_div2_section4, div.img3_div2_section4{
+        width: 33.33%;
+        height: 120vh;
+        border-radius: 5%;
+        background-color: #7b3886;
+    } 
 
     p.sect4_temoignages{
         /* justify-content: center;
